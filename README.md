@@ -5,7 +5,9 @@ Additional easing equations for the fx module in the [svgjs.com](http://svgjs.co
 Svg.easing.js is licensed under the terms of the MIT License.
 
 ## Usage
-Include this plugin after including the svg.js library in your html document. To use the custom easing methods:
+Include this plugin after including the svg.js library in your html document.
+
+To use the custom easing methods:
 
 ```javascript
 var draw = svg('paper').size(400, 400);

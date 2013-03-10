@@ -10,7 +10,7 @@ Include this plugin after including the svg.js library in your html document.
 To use the custom easing methods:
 
 ```javascript
-var draw = svg('paper').size(400, 400)
+var draw = SVG('paper').size(400, 400)
 var rect = draw.rect(100, 100)
 
 rect.animate(500, SVG.easing.bounce).move(300, 300)

@@ -1,0 +1,19 @@
+{
+  "name": "svg.easing.js",
+  "version": "1.0.0",
+  "description": "A plugin for [svg.js](http://svgjs.com) adding additional easing equations for the fx module.",
+  "main": "svg.easing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wout/svg.easing.js"
+  },
+  "author": "Wout",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wout/svg.easing.js/issues"
+  },
+  "homepage": "https://github.com/wout/svg.easing.js#readme"
+}

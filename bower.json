@@ -1,0 +1,27 @@
+{
+  "name": "svg.easing.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/wout/svg.easing.js",
+  "authors": [
+    "Wout Fierens"
+  ],
+  "description": "Additional easing equations for the fx module in the svgjs.com library",
+  "main": [
+    "./dist/svg.easing.js"
+  ],
+  "keywords": [
+    "svg.js",
+    "easing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "svg.js":">=1.x.x"
+  }
+}

@@ -1,4 +1,3 @@
-// svg.easing.js 0.3 - Copyright (c) 2013 Wout Fierens - Licensed under the MIT license
 // Based on Easing Equations (c) 2003 [Robert Penner](http://www.robertpenner.com/), all rights reserved.
 
 SVG.easing = {

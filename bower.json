@@ -1,6 +1,6 @@
 {
   "name": "svg.easing.js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/wout/svg.easing.js",
   "authors": [
     "Wout Fierens"
@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "svg.js":">=1.x.x"
+    "svg.js":">=2.3.x"
   }
 }

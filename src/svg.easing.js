@@ -2,7 +2,7 @@
 
 (function() {
     var easing = {
-  
+
         quadIn: function(pos) {
             return Math.pow(pos, 2)
         }
@@ -99,7 +99,7 @@
         var s = 1.70158
         return pos * pos * ((s + 1) * pos - s)
     }
-  
+
     , backOut: function (pos) {
         pos = pos - 1
         var s = 1.70158
@@ -132,7 +132,7 @@
         var s = 7.5625,
             p = 2.75,
             l
-        
+
         if (pos < (1 / p)) {
             l = s * pos * pos
         } else {

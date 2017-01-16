@@ -1,6 +1,6 @@
 # svg.easing.js
 
-Additional easing equations for the fx module in the [svgjs.com](http://svgjs.com) library.
+Additional easing equations for the fx module in the [svg.js](https://svgdotjs.github.io) library.
 
 Svg.easing.js is licensed under the terms of the MIT License.
 

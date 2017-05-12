@@ -1,9 +1,13 @@
-/*! svg.easing.js - v2.0.0 - 2016-04-25
+/*! svg.easing.js - v2.0.0 - 2017-05-12
 * https://github.com/wout/svg.easing.js
-* Copyright (c) 2016 Wout Fierens; Licensed MIT */
+* Copyright (c) 2017 Wout Fierens; Licensed MIT */
 // Based on Easing Equations (c) 2003 [Robert Penner](http://www.robertpenner.com/), all rights reserved.
 
 (function() {
+    if (!SVG.supported) {
+        return;
+    }
+
     var easing = {
 
         quadIn: function(pos) {

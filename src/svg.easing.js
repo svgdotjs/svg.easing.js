@@ -1,6 +1,10 @@
 // Based on Easing Equations (c) 2003 [Robert Penner](http://www.robertpenner.com/), all rights reserved.
 
 (function() {
+    if (!SVG.supported) {
+        return;
+    }
+
     var easing = {
 
         quadIn: function(pos) {

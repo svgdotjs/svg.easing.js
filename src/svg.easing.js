@@ -171,6 +171,6 @@
 
     }
 
-    for (key in easing)
+    for (var key in easing)
         SVG.easing[key] = easing[key]
 })()

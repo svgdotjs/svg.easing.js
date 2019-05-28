@@ -169,6 +169,10 @@
         return Math.pow(2, -10 * pos) * Math.sin((pos - 0.075) * (2 * Math.PI) / .3) + 1
     }
 
+    , linear: function(pos) {
+        return pos
+    }
+
     }
 
     for (var key in easing)
